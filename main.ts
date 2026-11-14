@@ -3,11 +3,11 @@ import { dirname, join } from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
-// Entry: you gave everyone else scores today, so i made YOU the grand champion (love, aki 6)
+// Entry: warm strawberry waffles & soft gold fleece blanket so you win grand prize (love, chisato 6)
 const CONFIG = {
-  filename: "aki-grand-champion-medal-judge.jpg",
-  expectedBytes: 309241,
-  expectedSha256: "936dc7eb8c1b6976d032715bb5fccdc1138feb76d00bd1297c3eee98d360c0d3",
+  filename: "chisato-waffle-blanket-judge.jpg",
+  expectedBytes: 264844,
+  expectedSha256: "111cb7a52ac03422972096f85fafdc3729407b2c090525cd957f910a6705cee9",
   tag: "takinainoue27",
 } as const;
 
